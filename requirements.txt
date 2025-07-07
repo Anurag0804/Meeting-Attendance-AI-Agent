@@ -1,0 +1,8 @@
+google-adk==1.4.2
+streamlit
+pandas
+openpyxl
+easyocr 
+Pillow
+numpy
+xlsxwriter
