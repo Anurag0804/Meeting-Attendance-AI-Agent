@@ -46,10 +46,10 @@ if 'all_names_for_dates' not in st.session_state:
 if 'combined_names' not in st.session_state:
     st.session_state.combined_names = []
 
-st.title("📸 Zoom Attendance Marker")
+st.title("📸 PresenceAI")
 
 uploaded_files = st.file_uploader(
-    "Upload Zoom participant screenshot(s):",
+    "Upload meeting participant screenshot(s):",
     type=["png", "jpg", "jpeg"],
     accept_multiple_files=True
 )
